@@ -1,0 +1,126 @@
+body{
+    background-color: #f0f2f5;
+    font-family: Arial;
+}
+
+.container{
+    position: absolute;
+    left: 20%;
+    right: 20%;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    padding-top: 200px;
+}
+.facebook-intro{
+    padding: 10px;
+    width: 500px;
+    margin-right: 60px;
+}
+.photo{
+    position: relative;
+    right: 10px;
+    height: 75px;
+    padding-bottom: 0px;
+}
+.header{
+
+}
+.logo{
+    width: 300px;
+    position: relative;
+    left: 0px;
+
+}
+
+.facebook-info{
+    padding-top: 0px;
+    padding-left: 20px;
+    font-size: x-large;
+    font-weight: normal;
+}
+
+.login-block{
+    height:400px;
+    width: 400px;
+}
+.login-info{
+    width: 350px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0px 3px 6px -2px gray;
+}
+.equal{
+    height: 40px;
+    border-radius: 5px;
+    margin: 15px 10px 7px 10px;
+    width: 330px
+}
+.input-change{
+    position: relative;
+    height: 40px;
+    width: 308px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #eff0f1;
+    border-radius: 5px;
+}
+
+.input-change:focus{
+    outline-offset: 0px;
+    outline-width: 0px;
+    outline-color: #1475e5;
+    border: 1px solid #1475e5;
+    box-shadow: 0px 0px 5px -3px #1475e5;
+}
+
+button.equal{
+    color: #effafe;
+    font-weight: bold;
+    font-size:15px;
+    border:none;
+    background-color: #1178f2;
+    margin: 10px 10px 10px 10px;
+    width:330px;
+}
+.create-new-acc{
+    text-align: center;
+}
+button.create{
+    background-color: #40b825;
+    width: 175px;
+    margin-bottom: 20px;
+}
+
+.forgotten-password{
+    font-size: 15px;
+    padding: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.forgotten_link{
+    text-decoration: none;
+    color: #1178f2;
+}
+.forgotten_link:hover{
+    text-decoration: underline;
+}
+.line{
+    text-align: center;
+    border: 1px none #dbdee2;
+    border-top-style: solid;
+    margin: 0px 10px 0px 13px;
+}
+.create-page{
+    text-align: center;
+    font-size: 13px;
+}
+.create_page_link{
+    text-decoration: none;
+    color: black;
+}
+.create_page_link:hover{
+    text-decoration: underline;
+}
