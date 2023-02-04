@@ -12,7 +12,7 @@ body{
 }
 .box{
     position: relative;
-    left:-45px;
+    left:0px;
     display: flex;
     flex-direction: row;
     width: 900px;
@@ -20,7 +20,7 @@ body{
 .facebook-intro{
     padding-top: 145px;
     width: 530px;
-    margin-right: 55px;
+    margin-right: 150px;
     margin-left: -5px;
 }
 .photo{
@@ -30,7 +30,7 @@ body{
     padding-bottom: 0px;
 }
 .header{
-
+    width: 400px;
 }
 .logo{
     width: 300px;
@@ -40,6 +40,7 @@ body{
 }
 
 .facebook-info{
+    width: 450px;
     padding-top: 0px;
     padding-left: 20px;
     font-size: 25px;
@@ -49,12 +50,12 @@ body{
 .login-block{
     position: relative;
     padding-top: 110px;
-    height:400px;
-    width: 400px;
+    height: 400px;
+    width: 500px;
 }
 .login-info{
-
-    width: 354px;
+    text-align: center;
+    width: 370px;
     background-color: white;
     border: 1px solid white;
     border-radius: 10px;
@@ -63,27 +64,33 @@ body{
 .equal{
     height: 43px;
     border-radius: 5px;
-    margin: 15px 10px 6px 13px;
+    margin: 15px 0px 6px 0px;
     width: 328px
 }
+
 .input-change{
     position: relative;
     height: 41px;
     width: 306px;
     padding-left: 10px;
     padding-right: 10px;
-    border: 1px solid #eff0f1;
+    border: 1px solid #dddfe2;
     border-radius: 5px;
+    margin-left: 20px;
+}
+input:focus::placeholder{
+    color: #bec3c9;
 }
 
-
 .input-change:focus{
-    outline-offset: 0px;
-    outline-width: 0px;
+    outline-offset: 0;
+    outline-width: 0;
     outline-color: #1475e5;
     border: 1px solid #1475e5;
     box-shadow: 0px 0px 5px -3px #1475e5;
 }
+
+
 button.equal{
     height: 43px;
     color: #effafe;
@@ -100,6 +107,7 @@ button.equal:hover{
 button.log-in:hover{
     background-color: #166fe3;
 }
+
 button.create:active{
     background-color: forestgreen;
 }
