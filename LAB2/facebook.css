@@ -11,8 +11,9 @@ body{
     right: 20%;
 }
 .box{
+    padding-top: 25px;
     position: relative;
-    left:0px;
+    left:-50px;
     display: flex;
     flex-direction: row;
     width: 900px;
@@ -20,7 +21,7 @@ body{
 .facebook-intro{
     padding-top: 145px;
     width: 530px;
-    margin-right: 150px;
+    margin-right: 198px;
     margin-left: -5px;
 }
 .photo{
@@ -40,29 +41,30 @@ body{
 }
 
 .facebook-info{
-    width: 450px;
+    width: 500px;
     padding-top: 0px;
     padding-left: 20px;
-    font-size: 25px;
+    font-size: 28px;
     font-weight: normal;
 }
 
 .login-block{
     position: relative;
-    padding-top: 110px;
+    padding-top: 100px;
     height: 400px;
-    width: 500px;
+    width: 550px;
 }
 .login-info{
     text-align: center;
-    width: 370px;
+    width: 392px;
+    height: 345px;
     background-color: white;
     border: 1px solid white;
     border-radius: 10px;
     box-shadow: 0px 3px 6px -2px gray;
 }
 .equal{
-    height: 43px;
+    height: 50px;
     border-radius: 5px;
     margin: 15px 0px 6px 0px;
     width: 328px
@@ -70,13 +72,14 @@ body{
 
 .input-change{
     position: relative;
-    height: 41px;
-    width: 306px;
-    padding-left: 10px;
-    padding-right: 10px;
+    height: 50px;
+    width: 343px;
+    padding-left: 15px;
+    padding-right: 15px;
     border: 1px solid #dddfe2;
     border-radius: 5px;
-    margin-left: 20px;
+    margin-left: 13px;
+    font-size: 17px;
 }
 input:focus::placeholder{
     color: #bec3c9;
@@ -89,10 +92,9 @@ input:focus::placeholder{
     border: 1px solid #1475e5;
     box-shadow: 0px 0px 5px -3px #1475e5;
 }
-
-
 button.equal{
-    height: 43px;
+    width: 365px;
+    height: 50px;
     color: #effafe;
     font-weight: bold;
     font-size:15px;
@@ -127,8 +129,8 @@ button.create{
     text-align: center;
 }
 .forgotten_link{
-    margin-top: 5px;
-    font-size: 12.5px;
+
+    font-size: 14px;
     text-decoration: none;
     color: #1178f2;
 }
@@ -142,6 +144,7 @@ button.create{
     margin: 0px 10px 0px 13px;
 }
 .create-page{
+    margin-top: 25px;
     text-align: center;
     font-size: 13px;
 }
