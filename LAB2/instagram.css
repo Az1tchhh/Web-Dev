@@ -1,0 +1,135 @@
+.body{
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+}
+.container{
+    width:1920px;
+    left: 20%;
+    right: 20%;
+    position: absolute;
+    font-family: Arial, sans-serif;
+}
+.box{
+    padding-top: 30px;
+    padding-left: 240px;
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+}
+.image-block{
+    margin-right: 40px;
+}
+.image{
+    width: 350px;
+}
+.login-block{
+    border: 1px solid grey;
+    width: 400px;
+    align-content: center;
+}
+.out-block{
+    border: 1px solid #dbdbdb;
+    margin: 0px 50px 50px 50px;
+    align-content: center;
+    width: 300px;
+}
+
+.first-block{
+    align-content: center;
+}
+.instagram-image{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 45px;
+}
+
+.image2{
+    height: 50px;
+}
+
+.login-input{
+    text-align: center;
+}
+.login-boxes{
+    text-align: center;
+    align-content: center;
+}
+.input-change{
+    width:224.2px;
+    margin-bottom: 10px;
+    height: 35px;
+    border: 1px solid gainsboro;
+    border-radius: 3px;
+}
+.login-button{
+    margin-top: 5px;
+    text-align: center;
+}
+.login_button{
+    color: white;
+    font-weight: bold;
+
+    height: 30px;
+    width: 230px;
+    border:none;
+    background-color: #4db5f9;
+    border-radius: 7px;
+}
+.line-box{
+    border-top: 1px solid black;
+    height:1px;
+    margin-bottom: 30px;
+    margin-top: 25px;
+    z-index: 1;
+}
+.or{
+    text-align: center;
+    position: relative;
+    left:40%;
+    top:-25px;
+    width:50px;
+    z-index: 2;
+}
+#OR{
+    background-color: white;
+}
+.login-facebook{
+    text-align: center;
+    padding: 2px;
+}
+.facebook_link{
+    text-decoration: none;
+    color: #385185;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 13px;
+}
+.facebook_button{
+    text-align: center;
+    background-color: #ffffff;
+    width:230px;
+    border:none;
+}
+.facebook_button:hover{
+    cursor: pointer;
+}
+.facebook_photo{
+    position: relative;
+    width:20px;
+}
+button.facebook_link{
+    padding-bottom: 10px;
+}
+.login-facebook{
+    margin-bottom: 20px;
+}
+.forget-password{
+    text-align: center;
+    font-size: 12px;
+}
+.forget-link{
+    text-decoration: none;
+    color: #385185;
+}
+
+
