@@ -10,7 +10,7 @@ body{
     height: 40px;
     display: flex;
     justify-content: center;
-    padding-top: 10px;
+    padding-top: 5px;
 }
 .Microsoft_image{
     height: 25px;
@@ -35,18 +35,35 @@ body{
     font-size: 0.9rem;
 }
 .top_first_bar{
+
     padding-left: 10px;
     padding-right: 10px;
 }
 .top_second_bar{
+    vertical-align: center;
     padding-left: 10px;
     padding-right: 10px;
 }
 .voiti{
     padding-left: 20px;
 }
+.top_bar a{
 
-
+    text-decoration: none;
+    color: black;
+}
+.top_bar a:hover{
+    border-bottom: 2px solid black;
+}
+.top_first_bar:active{
+    border: 1px dashed black;
+}
+#search{
+    vertical-align: center;
+    position: relative;
+    width: 20px;
+    padding-top: 2px;
+}
 ul{
     list-style-type: none;
     margin: 0;
@@ -100,15 +117,21 @@ li{
 }
 
 .container-gallery{
+    margin-top:60px;
+    margin-left: -60px;
     display: flex;
-    flex-direction: row;
-    margin-top: 60px;
-    margin-left: 50px;
+    justify-content: center;
+}
+.gallery_box{
+
+    width: 320px;
+    box-sizing: border-box;
+
 }
 
-.container-gallery img {
-    padding: 15px;
-    margin-left: 70px;
+.gallery_box img{
+    margin-left: 60px;
+
 }
 .card-body h2{
     font-size: 1.8125rem;
@@ -118,7 +141,7 @@ li{
     box-sizing: border-box;
 }
 .card-body {
-    margin-left: 90px;
+    margin-left: 60px;
 }
 .card-body p {
 
