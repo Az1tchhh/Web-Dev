@@ -1,0 +1,146 @@
+body{
+    height: 100%;
+    font-family: "Segoe UI", sans-serif;
+}
+.container{
+    width:100%;
+
+}
+.header{
+    background-color: black;
+    height: 40px;
+    vertical-align: center;
+    margin-top: -10px;
+}
+.sign{
+    height: 100%;
+}
+#header{
+    background-color: black;
+    padding-top: 5px;
+    margin-left: 10%;
+    color: gray;
+}
+.box{
+    height: 50%;
+    width: 70%;
+    text-align: center;
+    margin-left: 15%;
+    margin-top: 50px;
+}
+.in_box_header{
+    text-align: left;
+    width: 500px;
+    margin-left: 50px;
+}
+#toDo{
+    font-weight: 500;
+}
+.activity_input{
+    height: 50px;
+    text-align: left;
+    display: flex;
+    padding-left: 150px;
+}
+#input_area{
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-top: 10px;
+    height: 30px;
+    width: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 20px;
+}
+#input_area:focus{
+    outline-color: #8e8e8e;
+}
+#input_area:focus::placeholder{
+    color: lightgray;
+}
+.row{
+    box-sizing: border-box;
+    width: 400px;
+}
+#add{
+    margin-top: 10px;
+    width: 50px;
+    height: 30px;
+    color: white;
+    background-color: #00A5D2;
+    border: none;
+    border-radius: 5px;
+}
+#add:hover{
+    cursor: pointer;
+    background-color: #166fe3;
+}
+#add:active{
+    background-color: #0067b8 ;
+}
+.items{
+    margin-top: 20px;
+    text-align: center;
+    width:80%;
+    margin-left: 50px;
+}
+#activities{
+    justify-content: center;
+}
+.checkbox{
+    width: 50px;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+.galochka{
+    width:15px;
+    padding-top: 10px;
+    text-align: left;
+    margin-right: 1%;
+}
+.galochka:hover{
+    cursor: pointer;
+}
+.activity{
+    padding-right: 10px;
+}
+.activity-info{
+    width: 600px;
+    text-align: left;
+    padding-left: 30px;
+    margin-left: 20px;
+    overflow-x: scroll;
+
+}
+.delete_box{
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 13px;
+}
+.delete{
+    width: 100px;
+    height: 25px;
+    border: none;
+    margin-top: 13px;
+    background-color: transparent;
+    color: red;
+    font-weight: 600;
+}
+.delete:hover{
+    color: darkred;
+    cursor: pointer;
+}
+.delete:active{
+    color: red;
+}
+
+.line{
+    text-decoration: line-through;
+}
+.content{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
