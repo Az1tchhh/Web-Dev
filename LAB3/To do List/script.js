@@ -16,15 +16,29 @@ function createList(){
     let paragraph = document.createElement('p');
     let deleteElement = document.createElement('button');
 
+    let divCheckbox = document.createElement('div');
+    let divActivity = document.createElement('div')
+    let divDelete = document.createElement('div');
+
+    divCheckbox.className = "checkbox";
+    divCheckbox.classList.add("row");
+    divActivity.className = "activity";
+    divActivity.classList.add("row");
+    divDelete.className = "delete_box";
+    divDelete.classList.add("row");
+
+
     checkbox.type = "checkbox";
     checkbox.className = "galochka";
     checkbox.classList.add("row");
-    li.appendChild(checkbox);
+    divCheckbox.appendChild(checkbox);
+    li.appendChild(divCheckbox);
 
     paragraph.textContent = addActivityToList.value;
     paragraph.className = "activity-info";
     paragraph.classList.add("row");
-    li.appendChild(paragraph);
+    divActivity.appendChild(paragraph);
+    li.appendChild(divActivity);
 
     deleteElement.textContent = "Delete";
     deleteElement.className = "delete";
@@ -32,7 +46,8 @@ function createList(){
     deleteElement.addEventListener("click", () => {
         activity.removeChild(li);
     })
-    li.appendChild(deleteElement);
+    divDelete.appendChild(deleteElement);
+    li.appendChild(divDelete);
 
     checkbox.addEventListener("change", () => {
         if (checkbox.checked)

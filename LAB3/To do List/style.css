@@ -27,6 +27,8 @@ body{
     text-align: center;
     margin-left: 15%;
     margin-top: 50px;
+    justify-content: center;
+
 }
 .in_box_header{
     text-align: left;
@@ -36,31 +38,12 @@ body{
 #toDo{
     font-weight: 500;
 }
+
 .activity_input{
     height: 50px;
     text-align: left;
     display: flex;
     padding-left: 150px;
-}
-#input_area{
-    border: 1px solid gray;
-    border-radius: 5px;
-    margin-top: 10px;
-    height: 30px;
-    width: 50%;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-right: 20px;
-}
-#input_area:focus{
-    outline-color: #8e8e8e;
-}
-#input_area:focus::placeholder{
-    color: lightgray;
-}
-.row{
-    box-sizing: border-box;
-    width: 400px;
 }
 #add{
     margin-top: 10px;
@@ -78,40 +61,64 @@ body{
 #add:active{
     background-color: #0067b8 ;
 }
+
+#input_area{
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 30px;
+    width: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+#input_area:focus{
+    outline-color: #8e8e8e;
+}
+#input_area:focus::placeholder{
+    color: lightgray;
+}
+.row{
+    box-sizing: border-box;
+    width: 400px;
+}
 .items{
+
     margin-top: 20px;
     text-align: center;
-    width:80%;
-    margin-left: 50px;
+    justify-content: center;
+}
+ul{
+    padding: 0;
 }
 #activities{
-    justify-content: center;
+    width: 900px;
+    margin-left: 30px;
 }
 .checkbox{
     width: 50px;
     text-align: left;
-    padding-left: 10px;
-    padding-top: 15px;
+    margin-right: 10px;
 }
 .galochka{
     width:15px;
     padding-top: 10px;
     text-align: left;
-    margin-right: 1%;
+    margin-left: 20px;
+    margin-top: 55%;
 }
 .galochka:hover{
     cursor: pointer;
 }
 .activity{
-    padding-right: 10px;
+    padding-left: 20px;
+
 }
 .activity-info{
-    width: 600px;
+    width: 450px;
     text-align: left;
-    padding-left: 30px;
     margin-left: 20px;
-    overflow-x: scroll;
-
+    overflow-x: auto;
 }
 .delete_box{
     text-align: right;
@@ -122,7 +129,6 @@ body{
     width: 100px;
     height: 25px;
     border: none;
-    margin-top: 13px;
     background-color: transparent;
     color: red;
     font-weight: 600;
