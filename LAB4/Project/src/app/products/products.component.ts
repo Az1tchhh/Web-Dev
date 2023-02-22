@@ -7,6 +7,6 @@ import { products } from "../products";
   styleUrls: ['./products.component.css']
 })
 export class ProductsComponent {
-  products = products;
+  products = products
 
 }

@@ -6,6 +6,7 @@ export interface Product {
 }
 
 export const products = [
+
   {
     id: 1,
     name: 'Смарт-часы Apple Watch Series 8 45 мм Aluminum черный',
