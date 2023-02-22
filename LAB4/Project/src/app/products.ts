@@ -21,6 +21,7 @@ export const products = [
     ],
     price: 231_980,
     rating: 4.2,
+    link: 'https://kaspi.kz/shop/p/apple-watch-series-8-45-mm-aluminum-chernyi-106362847/?c=750000000#!/item',
     image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h1a/h69/63158968057886/apple-watch-series-8-41-mm-cernyj-106362847-1.jpg'
   },
   {
@@ -37,6 +38,7 @@ export const products = [
       {subdescr: '-время работы: до 4 дней'}
     ],
     rating: 4.4,
+    link: 'https://kaspi.kz/shop/p/aimoto-element-rozovyi-100828444/?c=750000000#!/item',
     image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/hc8/h5e/33034415833118/aimoto-element-pink-100828444-1-Container.jpg'
   },
   {
@@ -54,6 +56,7 @@ export const products = [
       {subdescr: '-емкость аккумулятора: 5020 мАч'}
     ],
     rating: 4.1,
+    link: 'https://kaspi.kz/shop/search/?text=%D0%A1%D0%BC%D0%B0%D1%80%D1%82%D1%84%D0%BE%D0%BD%20Xiaomi%20Redmi%20Note%2010%20Pro%208%20%D0%93%D0%91%2F256%20%D0%93%D0%91%20%D1%81%D0%B5%D1%80%D1%8B%D0%B9',
     image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h45/h27/64487158087710/xiaomi-redmi-note-10-pro-8-gb-128-gb-seryi-107221005-1.jpg'
   },
   {
@@ -66,6 +69,7 @@ export const products = [
       {subdescr: '-материал: резина, ,силикон'}
     ],
     rating: 3.3,
+    link: 'https://kaspi.kz/shop/p/ala-case-dlja-iphone-11-prozrachnyi-103661424/?c=750000000#!/item',
     image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/hc2/h42/48677606293534/ala-case-dla-iphone-11-prozracnyj-103661424-1.jpg'
   },
   {
@@ -78,6 +82,7 @@ export const products = [
       {subdescr: '-длина: 1 м'}
     ],
     rating: 1.0,
+    link: 'https://kaspi.kz/shop/p/kabel-apple-usb-type-c---lightning-1-m-40500508/?c=750000000#!/item',
     image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/haf/he9/32024009637918/kabel-apple-usb-type-c-lightning-1-m-40500508-1.jpg'
   },
   {
@@ -90,6 +95,7 @@ export const products = [
       {subdescr: '-установка: на тыловую камеру'}
     ],
     rating: 2.7,
+    link: 'https://kaspi.kz/shop/p/oem-dlja-iphone-11-iphone-12-iphone-12-mini-107405806/?c=750000000#!/item',
     image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h7c/h82/65294314602526/oem-dlya-iphone-11-iphone-12-iphone-12-mini-107405806-1.jpg'
   },
   {
@@ -102,6 +108,7 @@ export const products = [
       {subdescr: '-установка: на тыловую камеру'}
     ],
     rating: 3.3,
+    link: 'https://kaspi.kz/shop/p/wave-wl7-1-102860686/?c=750000000#!/item',
     image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/hc8/he8/47143374290974/wave-4k-hd-7-v-1-102860686-1.jpg'
   },
   {
@@ -117,12 +124,13 @@ export const products = [
       {subdescr: '-общий объем накопителей: 256 ГБ'}
     ],
     rating: 4.2,
+    link: 'https://kaspi.kz/shop/p/apple-macbook-air-13-mgn63-seryi-100797845/?c=750000000#!/item',
     image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h65/h0f/33125684084766/apple-macbook-air-2020-13-3-mgn63-seryj-100797845-1-Container.jpg'
   },
   {
     id: 9,
     name: 'Ноутбук HP 15s-eq1387ur 4Z3A4EA серебристый',
-    price: 128_350,
+    price: 160_350,
     description: [
       {subdescr: '-диагональ экрана: 15.6 дюйм'} ,
       {subdescr: '-процессор: AMD Athlon 3150U'} ,
@@ -132,12 +140,13 @@ export const products = [
       {subdescr: '-общий объем накопителей: 256 ГБ'}
     ],
     rating: 2.5,
+    link: 'https://kaspi.kz/shop/p/hp-15s-eq1387ur-4z3a4ea-serebristyi-108203227/?c=750000000#!/item',
     image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h3f/h8f/67253149204510/hp-15s-eq1387ur-4z3a4ea-serebristyi-108203227-1.jpg'
   },
   {
     id: 10,
     name: 'Ноутбук ASUS TUF Gaming A15 FA506IHRB-HN084 90NR07G7-M008C0 черный',
-    price: 128_350,
+    price: 349_350,
     description: [
       {subdescr: '-технология NFC: Да'},
       {subdescr: '-цвет: серый'} ,
@@ -149,6 +158,7 @@ export const products = [
       {subdescr: '-емкость аккумулятора: 5020 мАч'}
     ],
     rating: 5.0,
+    link: 'https://kaspi.kz/shop/p/asus-tuf-gaming-a15-fa506ihrb-hn084-90nr07g7-m008c0-chernyi-106255184/?c=750000000#!/item',
     image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h6b/h33/62100002701342/asus-tuf-gaming-a15-fa506ihrb-hn084-90nr07g7-m008c0-cernyj-106255184-1.jpg'
   },
 ];

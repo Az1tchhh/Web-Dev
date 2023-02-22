@@ -11,6 +11,9 @@
     <ul>
       <li *ngFor="let descr of product.description" class = product-desciption>{{descr.subdescr}}</li>
     </ul>
-
+  </div>
+  <div class="share-button">
+    <button (click)="shareOnWhatsapp(product)">Share on Whatsapp</button>
+    <button (click)="shareOnTelegram(product)">Share on Telegram</button>
   </div>
 </div>
