@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { products } from "../products";
-
 @Component({
   selector: 'app-products',
   templateUrl: './products.component.html',
@@ -9,4 +8,7 @@ import { products } from "../products";
 export class ProductsComponent {
   products = products
 
+  setCategorisedList(event: any){
+    this.products = event;
+  }
 }

@@ -1,4 +1,5 @@
 <h3 class = "product-list">List of products available</h3>
+<app-category-list (childEvent)="setCategorisedList($event)"> </app-category-list>
 
 <div class = "product-container" *ngFor="let product of products">
   <div class = "row">
@@ -17,8 +18,7 @@
 
   </div>
 
-
-
 </div>
+
 
 

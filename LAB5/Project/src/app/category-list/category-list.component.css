@@ -1,0 +1,8 @@
+.category{
+  position: absolute;
+  margin-left: 80%;
+  margin-top: -50px;
+  justify-content: right;
+  text-align: center;
+  font-size: 100%;
+}
