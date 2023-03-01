@@ -1,6 +1,6 @@
 <h3 class = "product-list">List of products available</h3>
 <app-category-list (childEvent)="setCategorisedList($event)"> </app-category-list>
-<app-back-button (getBackItems)="setBackItems($event)"></app-back-button>
+
 <div class = "product-container" *ngFor="let product of items">
   <div class = "row">
     <img class = "product-image" [src] = "product.image" width = "200px">

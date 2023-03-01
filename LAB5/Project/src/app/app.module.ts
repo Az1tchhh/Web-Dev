@@ -10,7 +10,7 @@ import { SharingComponent } from './sharing/sharing.component';
 import { CategoryListComponent } from './category-list/category-list.component';
 import { ListByCategoryComponent } from './list-by-category/list-by-category.component';
 import { ProductItemComponent } from './product-item/product-item.component';
-import { BackButtonComponent } from './back-button/back-button.component';
+
 
 @NgModule({
   declarations: [
@@ -21,7 +21,7 @@ import { BackButtonComponent } from './back-button/back-button.component';
     CategoryListComponent,
     ListByCategoryComponent,
     ProductItemComponent,
-    BackButtonComponent
+
   ],
   imports: [
     BrowserModule,
