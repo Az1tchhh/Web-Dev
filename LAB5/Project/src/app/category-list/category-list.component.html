@@ -1,4 +1,4 @@
-<div class = "category">
+<div id = "category">
   <h5>Choose category:</h5>
   <p *ngFor="let product of getUniqueCategories()">
     <button class = "category_button" (click) = "getCategorisedList(product)">{{product}}</button>

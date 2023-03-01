@@ -7,8 +7,11 @@ import { Product, products } from "../products";
   styleUrls: ['./category-list.component.css']
 })
 export class CategoryListComponent {
+
   product = products
+  isBackAppeared = false
   @Output() childEvent = new EventEmitter<Product>();
+
   getUniqueCategories() {
     const categories = new Set<string>();
     this.product.forEach(product => {
@@ -27,5 +30,7 @@ export class CategoryListComponent {
     })
     // @ts-ignore
     this.childEvent.emit(categoryItem);
+
+
   }
 }

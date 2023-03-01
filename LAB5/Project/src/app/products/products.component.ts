@@ -6,9 +6,12 @@ import { products } from "../products";
   styleUrls: ['./products.component.css']
 })
 export class ProductsComponent {
-  products = products
-
+  product = products
+  items = products
   setCategorisedList(event: any){
-    this.products = event;
+    this.items = event;
+  }
+  setBackItems(event: any){
+    this.items = event;
   }
 }

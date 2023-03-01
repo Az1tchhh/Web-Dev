@@ -9,21 +9,24 @@ import { GreetingComponent } from './greeting/greeting.component';
 import { SharingComponent } from './sharing/sharing.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    ProductsComponent,
-    GreetingComponent,
-    SharingComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    RouterModule.forRoot([
-      { path: '', component: ProductsComponent },
-      { path: 'products/:productId', component: SharingComponent},
-    ])
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+    declarations: [
+        AppComponent,
+        ProductsComponent,
+        GreetingComponent,
+        SharingComponent
+    ],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        RouterModule.forRoot([
+            {path: '', component: ProductsComponent},
+            {path: 'products/:productId', component: SharingComponent},
+        ])
+    ],
+    providers: [],
+    exports: [
+        ProductsComponent
+    ],
+    bootstrap: [AppComponent]
 })
 export class AppModule { }
