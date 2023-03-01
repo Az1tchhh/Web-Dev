@@ -21,10 +21,14 @@ body{
   font-weight: 500;
 }
 .product-container{
-  margin-bottom: 100px;
+  margin-bottom: 20px;
+  margin-left: 50px;
   display: flex;
   left:10%;
   right:10%;
+  border: 1px solid darkgray;
+  border-radius: 5px;
+  width: 900px;
 }
 .row{
   box-sizing: border-box;
@@ -41,6 +45,11 @@ body{
 .product-price{
   margin-left: 10px;
   margin-right: 50px;
+  font-weight: 500;
+  font-style: oblique;
+}
+.product-likes{
+  margin-left: 10px;
   font-weight: 500;
   font-style: oblique;
 }

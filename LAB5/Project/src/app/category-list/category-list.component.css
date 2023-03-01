@@ -1,8 +1,22 @@
 #category{
-  position: absolute;
+  position: fixed;
   margin-left: 80%;
   margin-top: -50px;
   justify-content: right;
   text-align: center;
   font-size: 100%;
+}
+
+.category_button{
+  border-radius: 5px;
+  background-color: white;
+  border: 1px solid darkgray;
+}
+
+#back_button{
+  background-color: white;
+  border: none;
+}
+#back_button:hover{
+  cursor: pointer;
 }

@@ -1,3 +1,17 @@
-#back_button{
-  text-align: right;
+
+.like{
+  font-size: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+  margin-left: 10px;
+  background-color: #00A5D2;
+  border: none;
+  border-radius: 5px;
+}
+.like:hover{
+  cursor: pointer;
+}
+.like:active{
+  background-color: #166fe3;
 }

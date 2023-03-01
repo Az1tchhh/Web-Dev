@@ -3,4 +3,5 @@
   <p *ngFor="let product of getUniqueCategories()">
     <button class = "category_button" (click) = "getCategorisedList(product)">{{product}}</button>
   </p>
+  <button id = "back_button" (click) = "getDefaultList()"><img src = "https://cdn-icons-png.flaticon.com/512/17/17699.png" width = "30"></button>
 </div>

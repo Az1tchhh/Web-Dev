@@ -19,7 +19,6 @@ export class CategoryListComponent {
     });
     return Array.from(categories);
   }
-
   getCategorisedList(settedCategory: String){
     let categoryItem = new Array<Product>();
     this.product.forEach(product =>{
@@ -30,8 +29,12 @@ export class CategoryListComponent {
     })
     // @ts-ignore
     this.childEvent.emit(categoryItem);
-
   }
 
+  getDefaultList(){
+    let category = this.product;
+    // @ts-ignore
+    this.getBackItems.emit(category);
+  }
 
 }
