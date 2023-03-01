@@ -273,5 +273,121 @@ export const products = [
     like: 3,
     link: 'https://kaspi.kz/shop/p/apple-iphone-14-128gb-chernyi-106363023/?c=750000000#!/item',
     image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h8f/h61/63072540131358/apple-iphone-14-128gb-cernyj-106363023-1.jpg'
-  }
+  },
+  {
+    id: 15,
+    category: 'watch',
+    name: 'Смарт-часы Amazfit Bip U Pro черный',
+    isLikePressed: false,
+    description: [
+      {subdescr: '-поддержка платформ: iOS'},
+      {subdescr: '-материал корпуса: пластик'},
+      {subdescr: '-цвет корпуса: черный'} ,
+      {subdescr: '-технология экрана: OLED'} ,
+      {subdescr: '-объем встроенной памяти: 32 Гб'} ,
+      {subdescr: '-интерфейсы: Bluetooth, ,Wi-Fi, ,NFC'} ,
+      {subdescr: '-время работы: в обычном режиме: 18 часов, в режиме энергосбережения: 36 часов'}
+    ],
+    price: 231_980,
+    rating: 4.2,
+    like: 3,
+    link: 'https://kaspi.kz/shop/p/amazfit-bip-u-pro-chernyi-100914321/?c=750000000#!/item',
+    image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h86/ha5/33549396574238/amazfit-bip-u-pro-cernyj-100914321-1-Container.jpg'
+  },
+  {
+    id: 16,
+    category: 'watch',
+    name: 'Смарт-часы Apple Watch SE 2nd Gen 40 мм черный',
+    isLikePressed: false,
+    description: [
+      {subdescr: '-поддержка платформ: iOS'},
+      {subdescr: '-материал корпуса: пластик'},
+      {subdescr: '-цвет корпуса: черный'} ,
+      {subdescr: '-технология экрана: OLED'} ,
+      {subdescr: '-объем встроенной памяти: 32 Гб'} ,
+      {subdescr: '-интерфейсы: Bluetooth, ,Wi-Fi, ,NFC'} ,
+      {subdescr: '-время работы: в обычном режиме: 18 часов, в режиме энергосбережения: 36 часов'}
+    ],
+    price: 155_980,
+    rating: 4.9,
+    like: 10,
+    link: 'https://kaspi.kz/shop/p/apple-watch-se-2nd-gen-40-mm-chernyi-106362731/?c=750000000#!/item',
+    image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/hab/h6c/62711069311006/apple-watch-se-2nd-generation-40-mm-cernyj-106362731-1.jpg'
+  },
+  {
+    id: 17,
+    category: 'watch',
+    name: 'Смарт-часы Apple Watch Series 7 45 мм черный',
+    isLikePressed: false,
+    description: [
+      {subdescr: '-поддержка платформ: iOS'},
+      {subdescr: '-материал корпуса: пластик'},
+      {subdescr: '-цвет корпуса: черный'} ,
+      {subdescr: '-технология экрана: OLED'} ,
+      {subdescr: '-объем встроенной памяти: 32 Гб'} ,
+      {subdescr: '-интерфейсы: Bluetooth, ,Wi-Fi, ,NFC'} ,
+      {subdescr: '-время работы: в обычном режиме: 18 часов, в режиме энергосбережения: 36 часов'}
+    ],
+    price: 233_980,
+    rating: 4.9,
+    like: 10,
+    link: 'https://kaspi.kz/shop/p/apple-watch-series-7-45-mm-chernyi-102582811/?c=750000000#!/item',
+    image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/hae/hcf/46553394249758/apple-watch-series-7-41-mm-cernyj-102582811-1.jpg'
+  },
+  {
+    id: 18,
+    category: 'supply',
+    name: 'Зарядное устройство Baseus Super Si Quick Charge 20W черный',
+    price: 8000,
+    isLikePressed: false,
+    description: [
+      {subdescr: '-тип: сетевая зарядка'},
+      {subdescr: '-количество подключаемых устройств: 1'},
+      {subdescr: '-быстрая зарядка: Да'},
+      {subdescr: '-разъем подключения: USB Type-C, ,Lightning'},
+      {subdescr: '-стандарт быстрой зарядки: Quick Charge 3.0'}
+    ],
+    rating: 3.0,
+    like: 104,
+    link: 'https://kaspi.kz/shop/p/baseus-super-si-quick-charge-20w-chernyi-103557342/?c=750000000#!/item',
+    image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/hc2/h21/48502979297310/baseus-super-si-quick-charge-20w-cernyj-103557342-1.jpg'
+  },
+  {
+    id: 19,
+    category: 'laptop',
+    name: 'Ноутбук Lenovo IdeaPad 3 15ITL6 82H8005GRK серебристый',
+    price: 169_990,
+    isLikePressed: false,
+    description: [
+      {subdescr: '-диагональ экрана: 15.6 дюйм'},
+      {subdescr: '-процессор: Intel Pentium Gold 7505'},
+      {subdescr: '-видеокарта: Intel UHD Graphics'},
+      {subdescr: '-размер оперативной памяти: 8 ГБ'},
+      {subdescr: '-тип жесткого диска: SSD'},
+      {subdescr: '-общий объем накопителей: 256 ГБ'}
+    ],
+    rating: 3.6,
+    like: 12,
+    link: 'https://kaspi.kz/shop/p/lenovo-ideapad-3-15itl6-82h8005grk-serebristyi-108090705/?c=750000000#!/item',
+    image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h8f/h3a/66993674190878/lenovo-ideapad-3-15itl6-82h8005grk-serebristyi-108090705-1.jpg'
+  },
+  {
+    id: 20,
+    category: 'laptop',
+    name: 'Ноутбук Lenovo IdeaPad 1 14IGL05 81VU00H3RU серый',
+    price: 139_990,
+    isLikePressed: false,
+    description: [
+      {subdescr: '-диагональ экрана: 14 дюйм'},
+      {subdescr: '-процессор: Intel Celeron N4020'},
+      {subdescr: '-видеокарта: Intel UHD Graphics 600'},
+      {subdescr: '-размер оперативной памяти: 4 ГБ'},
+      {subdescr: '-тип жесткого диска: SSD'},
+      {subdescr: '-общий объем накопителей: 128 ГБ'}
+    ],
+    rating: 3.2,
+    like: 11,
+    link: 'https://kaspi.kz/shop/p/lenovo-ideapad-1-14igl05-81vu00h3ru-seryi-108464874/?c=750000000#!/item',
+    image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h5e/he2/67940461740062/lenovo-ideapad-1-14igl05-81vu00h3ru-seryi-108464874-1.jpg'
+  },
 ];
