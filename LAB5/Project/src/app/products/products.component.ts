@@ -11,7 +11,5 @@ export class ProductsComponent {
   setCategorisedList(event: any){
     this.items = event;
   }
-  getDefaultList(event: any){
-    this.items = event;
-  }
+
 }

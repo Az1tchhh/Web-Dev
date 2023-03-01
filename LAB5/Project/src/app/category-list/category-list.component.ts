@@ -31,19 +31,7 @@ export class CategoryListComponent {
     // @ts-ignore
     this.childEvent.emit(categoryItem);
 
-    if(this.isBackAppeared === false){
-      let parentDiv = document.getElementById("category");
-      let backButton = document.createElement("button");
-      backButton.textContent = "Go back";
-      // @ts-ignore
-      parentDiv.appendChild(backButton);
-      this.isBackAppeared = true;
-    }
+  }
 
-  }
-  getBackCategory(){
-    // @ts-ignore
-    this.getBackItems.emit(this.product)
-  }
 
 }

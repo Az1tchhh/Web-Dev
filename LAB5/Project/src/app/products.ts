@@ -63,7 +63,7 @@ export const products = [
   },
   {
     id: 4,
-    category: 'phones',
+    category: 'supply',
     name: 'Чехол Ala case для iPhone 11 прозрачный',
     price: 212,
     description: [
@@ -226,5 +226,24 @@ export const products = [
     rating: 4.8,
     link: 'https://kaspi.kz/shop/p/samsung-galaxy-a13-4-gb-128-gb-chernyi-104253279/?c=750000000#!/item',
     image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h90/h49/49613711966238/samsung-galaxy-a13-4-gb-128-gb-chernyi-104253279-1.jpg'
+  },
+  {
+    id: 14,
+    category: 'phones',
+    name: 'Смартфон Apple iPhone 14 128Gb черный',
+    price: 414_389,
+    description: [
+      {subdescr: 'технология NFC: Да'},
+      {subdescr: 'цвет: черный'},
+      {subdescr: 'тип экрана: OLED, Super Retina XDR display'},
+      {subdescr: 'диагональ: 6.1 дюйм'},
+      {subdescr: 'размер оперативной памяти: 6 ГБ'},
+      {subdescr: 'процессор: 6-ядерный Apple A15 Bionic'},
+      {subdescr: 'объем встроенной памяти: 128 ГБ'},
+      {subdescr: 'емкость аккумулятора: 3279 мАч'}
+    ],
+    rating: 4.3,
+    link: 'https://kaspi.kz/shop/p/apple-iphone-14-128gb-chernyi-106363023/?c=750000000#!/item',
+    image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h8f/h61/63072540131358/apple-iphone-14-128gb-cernyj-106363023-1.jpg'
   }
 ];
