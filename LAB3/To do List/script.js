@@ -5,7 +5,7 @@ let activity = document.getElementById("activities");
 
 
 function addToList(){
-    createList(addActivityToList);
+    createList();
     addActivityToList.value = "";
 }
 
@@ -56,7 +56,6 @@ function createList(){
             paragraph.classList.remove('line');
 
     })
-
     activity.appendChild(li);
 
 }

@@ -5,7 +5,7 @@ if (userLogin === "Admin") {
 
     if( adminPassword === "TheMaster") alert("Welcome!")
     else if(adminPassword === "" || adminPassword == null){
-        alert("Canceled")
+        alert ("Canceled")
     }
     else{
         alert("Wrong password")
